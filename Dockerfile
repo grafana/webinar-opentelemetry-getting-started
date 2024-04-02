@@ -15,5 +15,5 @@ ENV OTEL_EXPORTER_OTLP_PROTOCOL="http/protobuf"
 
 EXPOSE 8080
 
-CMD [ "opentelemetry-instrument", "--service_name", "dice-server", "flask", "run", "-p", "8080" ]
+CMD [ "opentelemetry-instrument", "--service_name", "dice-server", "flask", "run", "-h", "0.0.0.0", "-p", "8080" ]
 
