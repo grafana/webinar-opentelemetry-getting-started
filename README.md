@@ -91,6 +91,7 @@ You can find instructions of how to run the sample application application [loca
 
    ```sh
    export OTEL_PYTHON_LOGGING_AUTO_INSTRUMENTATION_ENABLED=true
+   export OTEL_LOGS_EXPORTER=otlp
    opentelemetry-instrument \
      --service_name dice-server \
      flask run -p 8080
