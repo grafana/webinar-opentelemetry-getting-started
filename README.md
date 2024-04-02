@@ -2,7 +2,7 @@
 
 This repository contains the sample application which is used in the Grafana
 webinar [How to get started with OpenTelemetry and Grafana](https://grafana.com/go/webinar/how-to-instrument-apps-with-otel-and-grafana/?pg=videos&plcmt=upcoming-webinars).
-It consists of a minimal Python Flask web application.
+It consists of a minimal Python Flask web application and is based on the [OpenTelemetry Getting Started guide for Python](https://opentelemetry.io/docs/languages/python/getting-started/).
 
 You can find instructions of how to run the sample application application [locally](#run-the-sample-application-locally) or [via Docker](#run-the-sample-application-via-docker).
 
